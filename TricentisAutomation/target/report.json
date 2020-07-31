@@ -1,0 +1,952 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-31T11:03:09.470Z",
+        "line": 14,
+        "name": "As a user, I should be able to add products to the cart",
+        "description": "",
+        "id": "test-the-functionality-of-add-to-cart;as-a-user--i-should-be-able-to-add-products-to-the-cart;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Select the Menu of Prodcuts \"Books\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Books\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinitions.AddToCart.select_the_menu_of_prodcuts(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "List of products are displayed",
+            "match": {
+              "location": "stepDefinitions.AddToCart.list_of_products_are_displayed(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Select the product to be added \"Computing and Internet\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Computing and Internet\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.AddToCart.select_the_product_to_be_added(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Click on Add to Cart",
+            "match": {
+              "location": "stepDefinitions.AddToCart.click_on_add_to_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddToCart_Flow"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-31T11:03:09.619Z",
+        "line": 15,
+        "name": "As a user, I should be able to add products to the cart",
+        "description": "",
+        "id": "test-the-functionality-of-add-to-cart;as-a-user--i-should-be-able-to-add-products-to-the-cart;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Select the Menu of Prodcuts \"Jewelry\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jewelry\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinitions.AddToCart.select_the_menu_of_prodcuts(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "List of products are displayed",
+            "match": {
+              "location": "stepDefinitions.AddToCart.list_of_products_are_displayed(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Select the product to be added \"Create Your Own Jewelry\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Create Your Own Jewelry\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.AddToCart.select_the_product_to_be_added(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Click on Add to Cart",
+            "match": {
+              "location": "stepDefinitions.AddToCart.click_on_add_to_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddToCart_Flow"
+          }
+        ]
+      }
+    ],
+    "name": "Test the functionality of Add to Cart",
+    "description": "",
+    "id": "test-the-functionality-of-add-to-cart",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/AddToCart.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-31T11:03:09.664Z",
+        "line": 4,
+        "name": "As a user, I should be able capture the order information",
+        "description": "",
+        "id": "test-the-functionality-order-confirmation;as-a-user--i-should-be-able-capture-the-order-information",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Order is booked already",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Capture Order information",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CheckORder_Flow"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-31T11:03:09.673Z",
+        "line": 9,
+        "name": "As a user, I should be able to Logout from Application",
+        "description": "",
+        "id": "test-the-functionality-order-confirmation;as-a-user--i-should-be-able-to-logout-from-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Logout link is visible",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Clicks on Logout",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User is logged out",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Logout"
+          }
+        ]
+      }
+    ],
+    "name": "Test the functionality Order Confirmation",
+    "description": "",
+    "id": "test-the-functionality-order-confirmation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/CheckOrderDetails.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-31T11:03:09.682Z",
+        "line": 13,
+        "name": "As a user, I should be able to checkout products from the cart",
+        "description": "",
+        "id": "test-the-functionality-of-checkout;as-a-user--i-should-be-able-to-checkout-products-from-the-cart;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User should be in the Shopping Cart",
+            "match": {
+              "location": "stepDefinitions.Checkout.user_should_be_in_the_shopping_cart()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User Clicks on Checkout Button",
+            "match": {
+              "location": "stepDefinitions.Checkout.user_clicks_on_checkout_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Enter Billing Address \"India\",\"Pune\",\"Aundh\",\"411057\",\"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"India\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Pune\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"Aundh\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"411057\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 54
+                }
+              ],
+              "location": "stepDefinitions.Checkout.enter_billing_address(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Enter Shipping Method \"Ground (0.00)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ground (0.00)\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefinitions.Checkout.enter_shipping_method(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Click Continue",
+            "match": {
+              "location": "stepDefinitions.Checkout.click_continue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Checkout_Flow"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-31T11:03:09.701Z",
+        "line": 14,
+        "name": "As a user, I should be able to checkout products from the cart",
+        "description": "",
+        "id": "test-the-functionality-of-checkout;as-a-user--i-should-be-able-to-checkout-products-from-the-cart;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User should be in the Shopping Cart",
+            "match": {
+              "location": "stepDefinitions.Checkout.user_should_be_in_the_shopping_cart()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User Clicks on Checkout Button",
+            "match": {
+              "location": "stepDefinitions.Checkout.user_clicks_on_checkout_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Enter Billing Address \"New Zeland\",\"Auckland\",\"LarryCoast\",\"22110\",\"456778\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"New Zeland\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Auckland\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"LarryCoast\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"22110\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"456778\"",
+                  "offset": 67
+                }
+              ],
+              "location": "stepDefinitions.Checkout.enter_billing_address(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Enter Shipping Method \"Next Day Air (0.00)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Next Day Air (0.00)\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefinitions.Checkout.enter_shipping_method(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Click Continue",
+            "match": {
+              "location": "stepDefinitions.Checkout.click_continue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Checkout_Flow"
+          }
+        ]
+      }
+    ],
+    "name": "Test the functionality of Checkout",
+    "description": "",
+    "id": "test-the-functionality-of-checkout",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Checkout.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-31T11:03:09.718Z",
+        "line": 12,
+        "name": "Check whether user is able to Login to Tricentis Website",
+        "description": "",
+        "id": "feature-to-test-login-functionality-of-tricentis-demowebshop;check-whether-user-is-able-to-login-to-tricentis-website;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "The Tricentis DemoWebShop website is opened",
+            "match": {
+              "location": "stepDefinitions.Login.the_tricentis_demo_web_shop_website_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User Enters \"nalepranita@gmail.com\" and \"Secure@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nalepranita@gmail.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Secure@1234\"",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinitions.Login.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Clicks on Login Button",
+            "match": {
+              "location": "stepDefinitions.Login.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User is navigated to HomePage with \"nalepranita@gmail.com\" displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nalepranita@gmail.com\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefinitions.Login.user_is_navigated_to_home_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login_Flow"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-31T11:03:09.730Z",
+        "line": 13,
+        "name": "Check whether user is able to Login to Tricentis Website",
+        "description": "",
+        "id": "feature-to-test-login-functionality-of-tricentis-demowebshop;check-whether-user-is-able-to-login-to-tricentis-website;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "The Tricentis DemoWebShop website is opened",
+            "match": {
+              "location": "stepDefinitions.Login.the_tricentis_demo_web_shop_website_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User Enters \"nalepranita@gmail.com\" and \"Secure@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nalepranita@gmail.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Secure@1234\"",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinitions.Login.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Clicks on Login Button",
+            "match": {
+              "location": "stepDefinitions.Login.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User is navigated to HomePage with \"nalepranita@gmail.com\" displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nalepranita@gmail.com\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefinitions.Login.user_is_navigated_to_home_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login_Flow"
+          }
+        ]
+      }
+    ],
+    "name": "Feature To Test Login Functionality of Tricentis DemoWebShop",
+    "description": "",
+    "id": "feature-to-test-login-functionality-of-tricentis-demowebshop",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-31T11:03:09.743Z",
+        "line": 11,
+        "name": "As a user, I should be able make the payment products after checkout",
+        "description": "",
+        "id": "test-the-functionality-payement-of-product;as-a-user--i-should-be-able-make-the-payment-products-after-checkout;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User should be in Payment Method section",
+            "match": {
+              "location": "stepDefinitions.PaymentProcessing.user_should_be_in_payment_method_section()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User Enter Payment Information \"Credit Card\",\"Visa\",\"Jane Doe\",\"123412341234\",\"01\",\"123456\",\"233\",\"1234455\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Credit Card\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"Visa\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"Jane Doe\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"123412341234\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"01\"",
+                  "offset": 78
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"233\"",
+                  "offset": 92
+                },
+                {
+                  "val": "\"1234455\"",
+                  "offset": 98
+                }
+              ],
+              "location": "stepDefinitions.PaymentProcessing.enter_payment_information(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Review Order and Click Confirm Order \"Computing and Internet\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Computing and Internet\"",
+                  "offset": 37
+                }
+              ],
+              "location": "stepDefinitions.PaymentProcessing.click_confirm_order(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Payment_Flow"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-31T11:03:09.754Z",
+        "line": 12,
+        "name": "As a user, I should be able make the payment products after checkout",
+        "description": "",
+        "id": "test-the-functionality-payement-of-product;as-a-user--i-should-be-able-make-the-payment-products-after-checkout;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User should be in Payment Method section",
+            "match": {
+              "location": "stepDefinitions.PaymentProcessing.user_should_be_in_payment_method_section()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User Enter Payment Information \"Purchase Order\",\"Master Card\",\"Sane Doe\",\"234512345234\",\"02\",\"456778\",\"344\",\"2344657\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Purchase Order\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"Master Card\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"Sane Doe\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"234512345234\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"02\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"456778\"",
+                  "offset": 93
+                },
+                {
+                  "val": "\"344\"",
+                  "offset": 102
+                },
+                {
+                  "val": "\"2344657\"",
+                  "offset": 108
+                }
+              ],
+              "location": "stepDefinitions.PaymentProcessing.enter_payment_information(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Review Order and Click Confirm Order \"Create Your Own Jewelry\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Create Your Own Jewelry\"",
+                  "offset": 37
+                }
+              ],
+              "location": "stepDefinitions.PaymentProcessing.click_confirm_order(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Payment_Flow"
+          }
+        ]
+      }
+    ],
+    "name": "Test the functionality Payement of product",
+    "description": "",
+    "id": "test-the-functionality-payement-of-product",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/PayementProcessing.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-31T11:03:09.774Z",
+        "line": 11,
+        "name": "Check whether user is able to Search for specific products",
+        "description": "",
+        "id": "feature-to-search-prodcuts-functionality-of-tricentis-demowebshop;check-whether-user-is-able-to-search-for-specific-products;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "The Search Bar is visible",
+            "match": {
+              "location": "stepDefinitions.SearchProducts.the_search_bar_is_visible()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User Enters \"Camera\" to be searched",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Camera\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.SearchProducts.user_enters_to_be_searched(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Clicks on Search Button",
+            "match": {
+              "location": "stepDefinitions.SearchProducts.clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User is displayed with list of items",
+            "match": {
+              "location": "stepDefinitions.SearchProducts.user_is_displayed_with_list_of_items()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SearchProduct_FLow"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-31T11:03:09.787Z",
+        "line": 12,
+        "name": "Check whether user is able to Search for specific products",
+        "description": "",
+        "id": "feature-to-search-prodcuts-functionality-of-tricentis-demowebshop;check-whether-user-is-able-to-search-for-specific-products;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "The Search Bar is visible",
+            "match": {
+              "location": "stepDefinitions.SearchProducts.the_search_bar_is_visible()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User Enters \"Desktop\" to be searched",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Desktop\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.SearchProducts.user_enters_to_be_searched(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Clicks on Search Button",
+            "match": {
+              "location": "stepDefinitions.SearchProducts.clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User is displayed with list of items",
+            "match": {
+              "location": "stepDefinitions.SearchProducts.user_is_displayed_with_list_of_items()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SearchProduct_FLow"
+          }
+        ]
+      }
+    ],
+    "name": "Feature To Search Prodcuts Functionality of Tricentis DemoWebShop",
+    "description": "",
+    "id": "feature-to-search-prodcuts-functionality-of-tricentis-demowebshop",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/SearchProducts.feature",
+    "tags": []
+  }
+]
