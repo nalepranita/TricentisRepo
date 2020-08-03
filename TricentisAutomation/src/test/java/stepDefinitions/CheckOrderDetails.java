@@ -81,6 +81,9 @@ public class CheckOrderDetails {
 	    
 		Boolean emailAcc = driver.findElement(By.className("account")).isDisplayed();
 		Assert.assertFalse("User not Logged out", emailAcc);
+		
+		  driver.close(); 
+	      driver.quit();
 	    throw new io.cucumber.java.PendingException();
 	}
 
